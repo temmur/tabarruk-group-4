@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import './icomoon/style.css';
+@import './font/font.css';
 
 .container{
     width: 100%;
