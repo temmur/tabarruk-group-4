@@ -32,12 +32,16 @@
         <span>0{{ bannerList.length }}</span>
       </div>
     </div>
+  
   </div>
+   <div  class="z-40 absolute -bottom-20 left-0 w-full">
+    <CBannerCarousel/>
+   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-
+import CBannerCarousel from '@/components/carousels/CBannerCarousel.vue'
 const activeBanner = ref(0)
 const fillPercent = ref(0)
 let timer: ReturnType<typeof setInterval>
