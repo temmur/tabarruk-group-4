@@ -1,7 +1,7 @@
 <template>
   <button
     :class="[variants[variant], sizes[size], btnClass]"
-    class="border border-gray-300 cursor-pointer flex items-center"
+    class="border border-gray-300 cursor-pointer flex items-center justify-center transition duration-200"
     :disabled="disabled"
   >
     <slot name="prefix"></slot>
@@ -13,27 +13,29 @@
     <slot name="suffix"></slot>
   </button>
 </template>
-<script setup lang="ts">
-import { DefineProps } from 'vue';
 
-const props = defineProps<{
+<script setup lang="ts">
+
+defineProps<{
     text: string
-    variant: 'green' | 'yellow' | 'danger'
+    variant: 'red' | 'dark' | 'green' | 'yellow' | 'danger'
     size: 'md' | 'lg' | 'xl'
     btnClass?: string
     disabled: boolean
 }>()
 
+
 const variants = {
-    green: 'bg-green-500 text-white',
-    yellow: 'bg-yellow-400 text-black',
-    danger: 'bg-red-600 text-white'
+    red: 'bg-[#e54545] border-transparent text-white  hover:bg-[#cc3b3b]',
+    dark: 'bg-[#30363d] border-gray-700 text-white hover:bg-[#21262d]',
+    green: 'bg-green-500 text-white rounded-md',
+    yellow: 'bg-yellow-400 text-black rounded-md',
+    danger: 'bg-red-600 text-white rounded-md'
 }
 
 const sizes = {
-    md: 'px-2 py-2',
-    lg: 'px-4 py-2',
-    xl: 'px-6 py-2'
+    md: 'px-2 py-2 rounded-lg',
+    lg: 'px-4 py-2 rounded-lg',
+    xl: 'px-6 py-2 rounded-lg'
 }
-
 </script>

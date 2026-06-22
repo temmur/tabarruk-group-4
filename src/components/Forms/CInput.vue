@@ -1,6 +1,9 @@
 <template>
     <input type="text"
-    class="border"
+    class="w-full px-6 py-4 pr-14 text-white text-lg 
+             bg-white/5 border border-white/30 
+             rounded-2xl outline-none 
+             placeholder-white/40 backdrop-blur-md"
      @input="emit('update:modelValue', 
          $event.target.value
      )" 
