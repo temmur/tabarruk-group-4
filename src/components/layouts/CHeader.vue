@@ -95,7 +95,7 @@
             </Transition>
           </div>
           <button>
-            <img src="/images/search.png" alt="Search" class="w-5 h-5" />
+            <img src="./images/search.png" alt="Search" class="w-5 h-5" />
           </button>
         </div>
       </div>
