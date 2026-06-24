@@ -13,6 +13,7 @@
   "dependencies": {
     "swiper": "^12.2.0",
     "vue": "^3.5.32",
+    "vue-i18n": "^11.4.6",
     "vue-router": "^5.0.7"
   },
   "devDependencies": {
