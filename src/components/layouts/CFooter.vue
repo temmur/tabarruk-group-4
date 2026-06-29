@@ -5,7 +5,6 @@
       
       <div class="w-full md:max-w-[42%] flex flex-col items-start">
         <div class="flex items-center gap-[15px] mb-[20px]">
-          
           <img 
             src="/images/uz.svg" 
             alt="Tabarruk Ziyorat Logo" 
