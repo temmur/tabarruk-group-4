@@ -41,7 +41,6 @@
           <a href="#" class="text-white text-[15px] font-semibold hover:text-[#38bdf8] transition-colors duration-200">F.A.Q</a>
         </div>
       </div>
-
     </div>
 
     <div class="mt-[45px] border-t border-gray-900/40 pt-[25px] relative z-10">
