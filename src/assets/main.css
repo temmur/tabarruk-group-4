@@ -2,8 +2,5 @@
 @import './icomoon/style.css';
 @import './font/font.css';
 
-.container{
-    width: 100%;
-    max-width: 1250px;
-    margin: auto;
-}
+
+
