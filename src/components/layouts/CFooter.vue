@@ -9,8 +9,7 @@
           <img 
             src="/images/uz.svg" 
             alt="Tabarruk Ziyorat Logo" 
-            class="w-[605px] h-[175px]  " 
-     />
+            class="w-[605px] h-[175px]  " />
         </div>
 
         <p class="text-[14px] leading-relaxed font-normal text-white">
@@ -55,3 +54,6 @@
 
 <script setup>
 </script>
+
+
+
