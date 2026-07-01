@@ -30,7 +30,7 @@ const stats = ref([
 </script>
 
 <template>
-  <div class="pt-[50px] bg-[#080b11] min-h-[180px] w-full">
+  <div class="pt-[50px] bg-transparent min-h-[180px] w-full">
     <div class="flex flex-col sm:flex-row gap-4 p-6 pl-[43px]">
       <div 
         v-for="stat in stats" 
