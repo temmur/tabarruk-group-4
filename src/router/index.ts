@@ -19,9 +19,14 @@ const router = createRouter({
             path: '/about',
             name: 'About',
             component: PAbout
+        },
+        {
+            path: '/country/:route',
+            name: 'country-single',
+            component: ()=> import('@/views/Countries/PSingle.vue')
         }
     ]
-   }
+   },
   ],
 })
 

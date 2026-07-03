@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-[#0b0e1a] py-12 px-4 sm:py-20 sm:px-6">
+  <section class="bg-[#070A1C] py-12 px-4 sm:py-20 sm:px-6">
     <div class="max-w-[1440px] mx-auto">
 
       <div class="text-center mb-8 sm:mb-6">
@@ -17,7 +17,7 @@
         <RouterLink
           v-for="country in countries.slice(0, 4)"
           :key="country.name"
-          :to="country.route"
+          :to="`country/${country.route}`"
           class="group relative flex flex-col items-center text-center w-full max-w-[240px] sm:w-64 px-6 pt-6 pb-8 rounded-xl transition-all duration-200 hover:bg-[#1a1f2e] overflow-hidden"
         >
           <img 
@@ -37,7 +37,7 @@
         <RouterLink
           v-for="country in countries.slice(4)"
           :key="country.name"
-          :to="country.route"
+          :to="`country/${country.route}`"
           class="group relative flex flex-col items-center text-center w-full max-w-[240px] sm:w-64 px-6 pt-6 pb-8 rounded-xl transition-all duration-200 hover:bg-[#1a1f2e] overflow-hidden"
         >
           <img 
