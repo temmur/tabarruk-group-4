@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900 text-white bg-[url('/images/vectors/Vector(6).svg')] bg-cover bg-center mt-20">
+  <div class="bg-[#070A1C] text-white bg-[url('/images/vectors/Vector(6).svg')] bg-cover bg-center mt-20">
     <div class="max-w-7xl mx-auto px-8 py-12">
       <div class="flex items-center gap-8">
 
