@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl mx-auto px-8 py-12">
+  <div class="max-w-7xl mx-auto px-8 py-12 bg-[url('/images/vectors/Vector(6).svg')] width justify-left bg-cover bg-center rounded-3xl">
     <h1 class="text-4xl text-white font-bold mb-4 border-b-2 border-red-500 pb-2 w-fit mx-auto">
       Yangiliklar
     </h1>
@@ -7,7 +7,11 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch h-[300px]">
 
-      <!-- Chap — bitta katta karta: butun balandlikni egallaydi -->
+      <!-- Chap — bitta katta karta: butun balandlikni egallaydi -->  
+       <router-link
+       v-if="firstNews"
+     :to="`/news/${firstNews.id}`"
+>
       <div
         v-if="firstNews"
         class="bg-[#0B0F24] rounded-xl overflow-hidden cursor-pointer flex gap-4 p-4 h-full"
@@ -25,9 +29,15 @@
           <p class="text-gray-400 text-sm">{{ firstNews.date }}</p>
         </div>
       </div>
+    </router-link>
 
       <!-- O'ng — 2 ta karta, har biri 50% balandlik -->
       <div class="flex flex-col gap-4 h-full">
+        <router-link
+           v-for="(news,index) in restNews"
+           :key="index"
+           :to="`/news/${news.id}`"
+           >
         <div
           v-for="(news, index) in restNews"
           :key="index"
@@ -41,6 +51,7 @@
             <p class="text-gray-500 text-sm mt-2">{{ news.date }}</p>
           </div>
         </div>
+        </router-link>
       </div>
 
     </div>
