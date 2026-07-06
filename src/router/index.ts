@@ -24,6 +24,11 @@ const router = createRouter({
             path: '/country/:route',
             name: 'country-single',
             component: ()=> import('@/views/Countries/PSingle.vue')
+        },
+        {
+            path: '/playground',
+            name: 'playground',
+            component: ()=> import('@/views/PPLaygraund.vue')
         }
     ]
    },
