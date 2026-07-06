@@ -19,6 +19,11 @@ const router = createRouter({
             path: '/about',
             name: 'About',
             component: PAbout
+        },
+        {
+            path: '/news',
+            name: 'News',
+            component: ()=> import('@/views/PNews.vue')
         }
     ]
    }
