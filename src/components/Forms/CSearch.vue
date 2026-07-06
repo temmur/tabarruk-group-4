@@ -1,7 +1,9 @@
 <template>
 <div class="flex items-center w-full max-w-[700px] justify-between items-center gap-2">
     <div 
+
     
+
     v-show="openSearch"
     class="w-full flex items-center rounded-lg border border-[#4E535C]/30 bg-[#4E535C]/20 px-3 backdrop-blur-2xl">
         <slot name="prefix"></slot>
