@@ -10,7 +10,6 @@
             alt="Tabarruk Ziyorat Logo" 
             class="w-[605px] h-[175px]  " />
         </div>
-
         <p class="text-[14px] leading-relaxed font-normal text-white">
           Ushbu veb-sayt turkiy davlatlarda joylashgan tarixiy, noyob joylar haqida ma'lumot almashish uchun yaratilgan.
         </p>

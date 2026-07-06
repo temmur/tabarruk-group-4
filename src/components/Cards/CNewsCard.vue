@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full bg-[#0c0f1d] min-h-screen p-6">
-    <div class="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+  <div class="w-full bg-[#0c0f1d] min-h-screen py-10">
+    <div class="container  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
       
       <div 
         v-for="(item, index) in newsList" 
@@ -50,61 +50,61 @@
 <script setup>
 import { ref } from 'vue'
 
-
-const newsList = ref([
-  {
-    title: "2025-yil 18-fevral kuni O‘zbekistondagi Amirsoy tog‘-...",
-    description: "Түркі мемлекеттері ұйымы (ТМҰ) 2025 жылғы 18 ақпанда Түркі шаңғы кубог...",
-    date: "11.02.2025",
-    image: ""
-  },
-  {
-    title: "Elchi Kubanichbek Omuraliyev bilan suhbat bo'lib o'tdi",
-    description: "Turkiy davlatlar tashkiloti Bosh kotibi, Elchi, Kubanichbek O'muralievning...",
-    date: "03.02.2025",
-    image: ""
-  },
-  {
-    title: "“Tabarruk ziyorat” loyihasi doirasida faoliyat yuritayotgan...",
-    description: "O‘zbekiston Respublikasi Prezidentining 2022 yil 29 iyuldagi “Turkiy davlatl...",
-    date: "11.03.2024",
-    image: ""
-  },
-  {
-    title: "\"Turkiy adabiyot xazinasi\" asarlar majmuasi taqdimoti",
-    description: "Turkiy xalqlarning boy madaniy merosi va adabiyot namunalarini jamlagan yangi kitoblar...",
-    date: "07.12.2023",
-    image: ""
-  },
-  {
-    title: "Turkiy davlatlar tashkiloti Bosh kotibi Shavkat Mirziyoyevga...",
-    description: "Uchrashuv doirasida ziyorat turizmini rivojlantirish bo'yicha muhim kelishuvlarga erishildi...",
-    date: "10.07.2023",
-    image: ""
-  },
-  {
-    title: "Turkiy davlatlar tashkiloti Bosh kotibi Turkiya Respublikasi...",
-    description: "2023-yil 19-iyun kuni Toshkent shahrida Turkiy Davlatlar Tashkiloti Bosh kotibi...",
-    date: "19.06.2023",
-    image: ""
-  },
-  {
-    title: "Turkiy davlatlar tashkiloti Bosh kotibi O‘zbekiston Respublikasi...",
-    description: "Turkiy Davlatlar Tashkiloti Bosh kotibi, Elchi Kubanichbek Omuraliev Janobi...",
-    date: "19.06.2023",
-    image: ""
-  },
-  {
-    title: "\"Turk dunyosi\" I xalqaro talabalar teatr festivali o'tkaziladi",
-    description: "Barchani mazkur san'at bayramiga chorlab qolamiz! Talabalarning ijodiy chiqishlari...",
-    date: "19.05.2023",
-    image: ""
-  },
-  {
-    title: "\"O'zbekiston turk dunyosi fotograflari nigohida\"...",
-    description: "Toshkent fotosuratlar uyida \"O'zbekiston turk dunyosi fotograflari nigohida\"...",
-    date: "19.07.2023",
-    image: ""
-  }
-])
+import { newsList } from '@/data/newsList';
+// const newsList = ref([
+//   {
+//     title: "2025-yil 18-fevral kuni O‘zbekistondagi Amirsoy tog‘-...",
+//     description: "Түркі мемлекеттері ұйымы (ТМҰ) 2025 жылғы 18 ақпанда Түркі шаңғы кубог...",
+//     date: "11.02.2025",
+//     image: ""
+//   },
+//   {
+//     title: "Elchi Kubanichbek Omuraliyev bilan suhbat bo'lib o'tdi",
+//     description: "Turkiy davlatlar tashkiloti Bosh kotibi, Elchi, Kubanichbek O'muralievning...",
+//     date: "03.02.2025",
+//     image: ""
+//   },
+//   {
+//     title: "“Tabarruk ziyorat” loyihasi doirasida faoliyat yuritayotgan...",
+//     description: "O‘zbekiston Respublikasi Prezidentining 2022 yil 29 iyuldagi “Turkiy davlatl...",
+//     date: "11.03.2024",
+//     image: ""
+//   },
+//   {
+//     title: "\"Turkiy adabiyot xazinasi\" asarlar majmuasi taqdimoti",
+//     description: "Turkiy xalqlarning boy madaniy merosi va adabiyot namunalarini jamlagan yangi kitoblar...",
+//     date: "07.12.2023",
+//     image: ""
+//   },
+//   {
+//     title: "Turkiy davlatlar tashkiloti Bosh kotibi Shavkat Mirziyoyevga...",
+//     description: "Uchrashuv doirasida ziyorat turizmini rivojlantirish bo'yicha muhim kelishuvlarga erishildi...",
+//     date: "10.07.2023",
+//     image: ""
+//   },
+//   {
+//     title: "Turkiy davlatlar tashkiloti Bosh kotibi Turkiya Respublikasi...",
+//     description: "2023-yil 19-iyun kuni Toshkent shahrida Turkiy Davlatlar Tashkiloti Bosh kotibi...",
+//     date: "19.06.2023",
+//     image: ""
+//   },
+//   {
+//     title: "Turkiy davlatlar tashkiloti Bosh kotibi O‘zbekiston Respublikasi...",
+//     description: "Turkiy Davlatlar Tashkiloti Bosh kotibi, Elchi Kubanichbek Omuraliev Janobi...",
+//     date: "19.06.2023",
+//     image: ""
+//   },
+//   {
+//     title: "\"Turk dunyosi\" I xalqaro talabalar teatr festivali o'tkaziladi",
+//     description: "Barchani mazkur san'at bayramiga chorlab qolamiz! Talabalarning ijodiy chiqishlari...",
+//     date: "19.05.2023",
+//     image: ""
+//   },
+//   {
+//     title: "\"O'zbekiston turk dunyosi fotograflari nigohida\"...",
+//     description: "Toshkent fotosuratlar uyida \"O'zbekiston turk dunyosi fotograflari nigohida\"...",
+//     date: "19.07.2023",
+//     image: ""
+//   }
+// ])
 </script>
