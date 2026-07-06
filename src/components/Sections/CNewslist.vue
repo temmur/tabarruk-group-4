@@ -29,7 +29,7 @@
           <p class="text-gray-400 text-sm">{{ firstNews.date }}</p>
         </div>
       </div>
-      router-link>
+    </router-link>
 
       <!-- O'ng — 2 ta karta, har biri 50% balandlik -->
       <div class="flex flex-col gap-4 h-full">

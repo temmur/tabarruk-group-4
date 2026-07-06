@@ -26,10 +26,16 @@ const router = createRouter({
             component: ()=> import('@/views/Countries/PSingle.vue')
         },
         {
+
             path: '/news/:id',
             name: 'news-single',
             component: () => import('@/views/PNewsSingle.vue')
-}
+        },
+        {
+            path: '/playground',
+            name: 'playground',
+            component: ()=> import('@/views/PPLaygraund.vue')
+        }
     ]
    },
   ],
