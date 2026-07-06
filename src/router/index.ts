@@ -21,6 +21,11 @@ const router = createRouter({
             component: PAbout
         },
         {
+            path: '/news',
+            name: 'News',
+            component: ()=> import('@/views/PNews.vue')
+        },
+        {
             path: '/country/:route',
             name: 'country-single',
             component: ()=> import('@/views/Countries/PSingle.vue')
@@ -35,7 +40,7 @@ const router = createRouter({
             path: '/playground',
             name: 'playground',
             component: ()=> import('@/views/PPLaygraund.vue')
-        }
+        },
     ]
    },
   ],
