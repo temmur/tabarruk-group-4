@@ -24,7 +24,12 @@ const router = createRouter({
             path: '/country/:route',
             name: 'country-single',
             component: ()=> import('@/views/Countries/PSingle.vue')
-        }
+        },
+        {
+            path: '/news/:id',
+            name: 'news-single',
+            component: () => import('@/views/PNewsSingle.vue')
+}
     ]
    },
   ],
