@@ -19,9 +19,30 @@ const router = createRouter({
             path: '/about',
             name: 'About',
             component: PAbout
-        }
+        },
+        {
+            path: '/news',
+            name: 'News',
+            component: ()=> import('@/views/PNews.vue')
+        },
+        {
+            path: '/country/:route',
+            name: 'country-single',
+            component: ()=> import('@/views/Countries/PSingle.vue')
+        },
+        {
+
+            path: '/news/:id',
+            name: 'news-single',
+            component: () => import('@/views/PNewsSingle.vue')
+        },
+        {
+            path: '/playground',
+            name: 'playground',
+            component: ()=> import('@/views/PPLaygraund.vue')
+        },
     ]
-   }
+   },
   ],
 })
 
