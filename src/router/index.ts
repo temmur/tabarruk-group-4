@@ -19,10 +19,17 @@ const router = createRouter({
             path: '/about',
             name: 'About',
             component: PAbout
+        },
+        {
+            path: '/news/:slug',
+            name: 'news-single',
+            component: ()=> import('@/views/PNewsSingle.vue')
         }
+        
     ]
    }
   ],
 })
+
 
 export default router
