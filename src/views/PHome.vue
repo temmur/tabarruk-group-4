@@ -5,6 +5,7 @@
      <CNewslist/>
           <CCountries :countries="countries" />
      <CInstagram/>
+     <CPartness/>
    </div>
 </template>
 <script setup lang="ts">
@@ -14,4 +15,5 @@ import CAbout from '@/components/Sections/CAbout.vue'
 import CNewslist from '@/components/Sections/CNewslist.vue'
 import CCountries from '@/components/Sections/CCountries.vue'
 import CInstagram from '@/components/Sections/CInstagram.vue';
+import CPartness from '@/components/Sections/CPartness.vue';
 </script>
