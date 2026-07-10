@@ -1,41 +1,41 @@
 <template>
   <button
-    :class="[variants[variant], sizes[size], btnClass]"
-    class="border border-gray-300 cursor-pointer flex items-center justify-center transition duration-200"
-    :disabled="disabled"
+    v-bind="{ disabled }"
+    :disabled="true"
+    class="rounded-lg w-fit flex-center cursor-pointer"
+    :class="[sizes[size], variants[variant], { 'pointer-events-none': disabled }, btnClass ] "
   >
-    <slot name="prefix"></slot>
-
-    <span class="mx-2">
-      {{ text }}
-    </span>
-
-    <slot name="suffix"></slot>
+    <slot></slot>
   </button>
 </template>
-
 <script setup lang="ts">
-
-defineProps<{
-    text: string
-    variant: 'red' | 'dark' | 'green' | 'yellow' | 'danger'
-    size: 'md' | 'lg' | 'xl'
-    btnClass?: string
-    disabled: boolean
-}>()
-
-
-const variants = {
-    red: 'bg-[#e54545] border-transparent text-white  hover:bg-[#cc3b3b]',
-    dark: 'bg-[#30363d] border-gray-700 text-white hover:bg-[#21262d]',
-    green: 'bg-green-500 text-white rounded-md',
-    yellow: 'bg-yellow-400 text-black rounded-md',
-    danger: 'bg-red-600 text-white rounded-md'
+interface Props {
+  text?: string
+  btnClass?: string
+  disabled?: boolean
+  loading?: boolean
+  variant?: 'primary' | 'red'
+  size?: 'normal' | 'small'
+  iconName?: string
 }
-
+withDefaults(defineProps<Props>(), {
+  hasShadow: true,
+  text: 'Button',
+  textClass: '',
+  shadowColor: '',
+  disabled: false,
+  loading: false,
+  variant: 'primary',
+  size: 'normal',
+  iconName: ''
+})
 const sizes = {
-    md: 'px-2 py-2 rounded-lg',
-    lg: 'px-4 py-2 rounded-lg',
-    xl: 'px-6 py-2 rounded-lg'
+  small: '!px-4 !py-2 !rounded-10 !text-sm',
+  normal: '!px-7 !py-3 !text-base'
+}
+const variants = {
+  primary: 'bg-gray-700 hover:bg-gray-800 active:scale-95 transition-all active:ring-2 active:ring-gray-700  z-10 text-white',
+  red: 'bg-red hover:bg-red-500 active:scale-95 transition-all  z-10 text-white',
 }
 </script>
+

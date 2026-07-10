@@ -1,5 +1,8 @@
 <template>
-  <header class="w-full bg-[#0b0e1a] text-white fixed top-0 left-0 z-50">
+  <header
+    class="w-full text-white fixed top-0 left-0 z-50 transition-colors duration-300"
+    :class="isTransparent ? 'bg-transparent' : 'bg-[#070A1C]'"
+  >
     <div class="h-3 bg-[#e63946] w-full"></div>
     <div class="max-w-[1440px] mx-auto px-6 py-7 flex items-center justify-between">
 
@@ -124,7 +127,7 @@
 
         <div class="h-px bg-gray-800 mb-6"></div>
 
-        <nav class="flex flex-col">
+       <nav class="flex flex-col">
           <a
             v-for="(el, idx) in navList"
             :key="idx"
@@ -176,10 +179,25 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, computed } from 'vue'
+import { ref, onMounted, onUnmounted, computed, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useRoute } from 'vue-router'
 
 const { locale } = useI18n()
+const route = useRoute()
+
+const isScrolled = ref(false)
+const isTransparent = ref(false)
+
+function updateTransparency() {
+    isTransparent.value = route.path === '/' && !isScrolled.value
+}
+
+function handleScroll() {
+    isScrolled.value = window.scrollY > 20
+}
+
+watch([isScrolled, () => route.path], updateTransparency, { immediate: true })
 
 const languages = ref([
     { 
@@ -312,8 +330,15 @@ function handleClick(event) {
     }
 }
 
-onMounted(() => document.addEventListener('click', handleClick))
-onUnmounted(() => document.removeEventListener('click', handleClick))
+onMounted(() => {
+    document.addEventListener('click', handleClick)
+    window.addEventListener('scroll', handleScroll)
+    handleScroll()
+})
+onUnmounted(() => {
+    document.removeEventListener('click', handleClick)
+    window.removeEventListener('scroll', handleScroll)
+})
 
 const navList = ref([
     { 
