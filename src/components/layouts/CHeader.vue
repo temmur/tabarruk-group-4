@@ -6,22 +6,22 @@
     <div class="h-3 bg-[#e63946] w-full"></div>
     <div class="max-w-[1440px] mx-auto px-6 py-7 flex items-center justify-between">
 
-      <RouterLink to="/">
+      <RouterLink to="/" class="[text-shadow:0_1px_4px_rgba(0,0,0,0.7)]">
         <img src="/images/uz.svg" alt="Logo" class="w-101 h-20 object-contain" />
       </RouterLink>
 
       <div class="hidden lg:flex items-center gap-9">
-        <nav class="text-base font-semibold text-gray-300">
+        <nav class="text-base font-semibold text-white-300  [text-shadow:0_1px_4px_rgba(0,0,0,0.7)] ">
           <ul class="flex items-center gap-6">
             <li v-for="(el, idx) in navList" :key="idx" class="relative">
 
-              <button v-if="el.name === 'Davlatlar'" @click="toggleCountries" class="hover:text-gray-300">
+              <button v-if="el.name === 'Davlatlar'" @click="toggleCountries" class="text-white-300 [text-shadow:0_1px_4px_rgba(0,0,0,0.7)] hover:text-gray-400">
                 {{ el.name }}
               </button>
-              <button v-else-if="el.name==='Dinlar'" @click="toggleReligions" class="hover:text-gray-300">
+              <button v-else-if="el.name==='Dinlar'" @click="toggleReligions" class="text-white-300 [text-shadow:0_1px_4px_rgba(0,0,0,0.7)] hover:text-gray-400">
                 {{ el.name }}
               </button>
-              <RouterLink v-else :to="el.route" class="hover:text-gray-300">
+              <RouterLink v-else :to="el.route" class="text-white-300 [text-shadow:0_1px_4px_rgba(0,0,0,0.7)] hover:text-gray-400">
                 {{ el.name }}
               </RouterLink>
 
@@ -71,7 +71,7 @@
           </ul>
         </nav>
 
-        <div class="flex items-center gap-5 border-l border-gray-700 pl-4">
+        <div class="flex items-center gap-5 border-l border-gray-700 pl-4 [text-shadow:0_1px_4px_rgba(0,0,0,0.7)]">
           <div class="relative" ref="langRef">
             <button @click="toggleLang" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <img :src="currectLang.flag" alt="" class="w-8 h-8 rounded-full object-cover" />
@@ -90,7 +90,8 @@
                     <img :src="lang.flag" alt="" class="w-6 h-6 rounded-full object-cover flex-shrink-0" />
                     <span class="flex items-center justify-between flex-1 min-w-0 gap-1">
                       <span class="country-name text-xs font-medium text-white whitespace-nowrap">{{ lang.name }}</span>
-                      <span v-if="lang.code === currectLang.code" class="text-white text-sm flex-shrink-0 font-bold ml-auto">✓</span>
+                      <span v-if="lang.code === currectLang.code" class="text-white text-sm flex-shrink-0 font-bold ml-auto">
+                <span class="icon-check"></span></span>
                     </span>
                   </button>
                 </div>
@@ -190,7 +191,7 @@ const isScrolled = ref(false)
 const isTransparent = ref(false)
 
 function updateTransparency() {
-    isTransparent.value = route.path === '/' && !isScrolled.value
+    isTransparent.value = !isScrolled.value
 }
 
 function handleScroll() {
