@@ -2,11 +2,8 @@
 @import './icomoon/style.css';
 @import './font/font.css';
 
-.container{
-    width: 100%;
-    max-width: 1250px;
-    margin: auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 
 .container{
     width: 100%;

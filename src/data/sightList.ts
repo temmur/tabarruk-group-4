@@ -12,7 +12,7 @@ export const sights1 = {
     {
     name: "Anjirli ota",
  country: "O'zbekiston",
-        city: "Toshkent viloyati",
+city: "Toshkent viloyati",
 desc:"Anjirli ota davri aniqlanmagan, qadimdan u shaxs to‘g‘risida xar xil rivoyatlar bor",
 info:"Anjirli ota davri aniqlanmagan, qadimdan u shaxs to‘g‘risida xar xil rivoyatlar bor. Ba’zi manbalarda bog‘bon bo‘lgan degan ma’lumotlar mavjud.",
 image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWALqDELc4XkKd_NKkb8EvCSixWdX188Vl_nmSAgnAA&s",
@@ -364,7 +364,87 @@ id:"40",
     turkiya:[
         {
             name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
+            country:"Turkiya",
+            city:"Istanbul ",
+            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
+             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
+             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
+        },
+        {
+            name:"Beylerbeyi saroyi",
+            country:"Turkiya",
+            city:"Istanbul ",
+            desc:"Beylerbeyi saroyi Istanbulning Üsküdar tumanidagi Beylerbeyi tumanida joylashgan muhim turk-islom inshootidir,",
+             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
+             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
+        },
+        {
+            name:"Memar Sinan maqbarasi",
+            country:"Turkiya",
+            city:"Istanbul ",
+            desc:"Memar Sinon maqbarasi Turkiyaning Istanbul viloyatida joylashgan,",
+             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
+             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
+        },
+        {
+            name:"Mulla Guroniy hazratlarining maqbarasi",
+            country:"Turkiya",
+            city:"Istanbul ",
+            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
+             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
+             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
+        },
+        {
+            name:"Mihrima Sulton jome masjidi",
+            country:"Turkiya",
+            city:"Istanbul ",
+            desc:"Mihrimah Sulton masjidi Turkiyaning Istanbul shahrining Üsküdar tumanida joylashgan,",
+             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
+             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
+        },
+        {
+            name:"Nalli masjidi",
+            country:"Turkiya",
+            city:"Istanbul ",
+            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
+             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
+             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
+        },
+        {
+            name:"Sulaymon Muhtasham ko'prigi",
+            country:"Turkiya",
+            city:"Istanbul ",
+            desc:"Bu ko‘prik Sulaymon podshoning yurishlari paytida qo‘shinlarning o‘tishini osonlashtirish, ya’ni jarayonni tezlashtirish maqsadida qurilgan,",
+             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
+             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
+        },
+        {
+            name:"Amir Buxoriy masjidi va maqbarasi",
+            country:"Turkiya",
+            city:"Istanbul ",
+            desc:"Amir Buxoriy masjidi XVI asrda hazratlari Sayyid Amir Ahmad Buxoriy uchun qurilgan. Asr boshlarida Usmonli imperiyasining sultoni II,",
+             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
+             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
+        },
+        {
+            name:"Anadulo qal'asi",
+            country:"Turkiya",
+            city:"Istanbul ",
+            desc:"Anadolu Hisarı (Guzelce Hisarı) Turkiyaning Istanbul viloyatida joylashgan,",
+             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
+             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
+        },
+        {
+            name:"Bobo Haydar Samarqandiy qabri",
+            country:"Turkiya",
+            city:"Istanbul ",
+            desc:"Bugungi kunda Baba Haydar Semekandi maqbarasi Turkiyaning Istanbul viloyatida joylashgan boʻlib, tashrif buyurilgan eng muhim diniy inshootlardan biridir,",
+             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
+             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
+        },
+        {
+            name:"Amir Ahmad Buxoriy masjidi",
+            country:"Turkiya",
             city:"Istanbul ",
             desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
              info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
@@ -372,7 +452,7 @@ id:"40",
         },
         {
             name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
+            country:"Turkiya",
             city:"Istanbul ",
             desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
              info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
@@ -380,7 +460,7 @@ id:"40",
         },
         {
             name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
+            country:"Turkiya",
             city:"Istanbul ",
             desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
              info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
@@ -388,87 +468,7 @@ id:"40",
         },
         {
             name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
-            city:"Istanbul ",
-            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
-             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
-             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
-        },
-        {
-            name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
-            city:"Istanbul ",
-            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
-             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
-             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
-        },
-        {
-            name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
-            city:"Istanbul ",
-            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
-             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
-             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
-        },
-        {
-            name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
-            city:"Istanbul ",
-            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
-             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
-             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
-        },
-        {
-            name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
-            city:"Istanbul ",
-            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
-             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
-             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
-        },
-        {
-            name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
-            city:"Istanbul ",
-            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
-             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
-             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
-        },
-        {
-            name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
-            city:"Istanbul ",
-            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
-             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
-             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
-        },
-        {
-            name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
-            city:"Istanbul ",
-            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
-             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
-             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
-        },
-        {
-            name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
-            city:"Istanbul ",
-            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
-             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
-             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
-        },
-        {
-            name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
-            city:"Istanbul ",
-            desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
-             info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
-             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqtt4WgqyTJD6L27Lt0oLiemOyhZwIPoALch74-hhOg&s=10"
-        },
-        {
-            name:"Amir Ahmad Buxoriy masjidi",
-            counrty:"Turkiya",
+            country:"Turkiya",
             city:"Istanbul ",
             desc:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi,",
              info:"Amir Ahmad Buxoriy O‘zbekistonning Buxoro shahrida tug‘ilgan. Hz. Muhammad alayhissalomning nabiralari amir Buxoriy tasavvufga qiziqqan o‘z davrining yetakchi islom ulamolaridan biri edi. Amir Buxoriy ham boshqa olimlar kabi Anadoluning islomiylashuvida katta ta’sir ko‘rsatdi. Diniy taʼlimni Buxoroda boshlagan amir Buxoriy Samarqandga koʻchib oʻtadi va bir muddatdan soʻng Anadoluda qoʻnim topgan.",
@@ -595,7 +595,7 @@ image:"https://admin.tabarrukziyorat.uz/media/destination_images/2_dwrINHB.jpg",
             desc:"“Padisha ota” g‘ishtdan chiroyli tarzda qurilgan, uning ichida sahoba (Muhammad payg‘ambarni ko‘rgan odam) jasadi, uning ismi Said Kamoloddin Salmoniy Forsiy edi",
             info:"“Padisha ota” g‘ishtdan chiroyli tarzda qurilgan, uning ichida sahoba (Muhammad payg‘ambarni ko‘rgan odam) jasadi, uning ismi Said Kamoloddin Salmoniy Forsiy edi. Rivoyatlarga ko'ra, Shoh Jarir (Sohib Muhammad Hazratshoh-i Jarir) o'z qarorgohini tark etgach, Said Kamoloddin Salmoniy Forsiyni hukmdorga qoldirib, o'zining o'rniga podshoh hukmronlik qiladi, shuning uchun unga Padisha unvoni berilgan, ya'ni hukmdor, podshoh.",
             img:"https://admin.tabarrukziyorat.uz/media/destination_images/a60a0527.jpg",
-            city:"Jalal-Abad province ",
+            city:"Jalol-Obod viloyati ",
             country:"Kyrgyzstan",
              id:1,
     
@@ -603,10 +603,10 @@ image:"https://admin.tabarrukziyorat.uz/media/destination_images/2_dwrINHB.jpg",
         {
         name:"San-Tosh qo'rg'on majmuasi",
         desc:"Muhtasham qoʻrgʻon majmuasi San-Tosh dovoni boshidan janubi-gʻarbda, Adir etagida joylashgan",
-        info:"????",
+        info:"Muhtasham qoʻrgʻon majmuasi San-Tosh dovoni boshidan janubi-gʻarbda, Adir etagida joylashgan. Majmuadagi markaziy oʻrin “San-Tosh” nomi bilan mashhur boʻlgan tosh toʻsiqli katta tepalikdir. Boshqa turdagi qabristonlar qabr atrofida birlashtirilgan: sopol, tosh tuproq, tosh tepaliklar, toshlarning eskizlari va yumaloq shakldagi tosh hisob-kitoblari bilan.Bu Tamerlan haqidagi hikoyalardan biri ishlab chiqilgan dovondir.Yana bir yurishga ketayotib, qo'mondon askarlarning har biriga o'zlari bilan bir tosh olib, keyin uni bu erga qo'yishni buyurdi. Orqaga qaytib, Tamerlan askarlarning har biriga qoziqdan tosh olishlarini buyurdi. Qolgan qoziq halok bo'lgan askarlar yodgorligiga aylandi. Va haqiqatan ham dovonda tosh tepaliklar topilgan va bu nomning o'zi toshlarni sanash deb tarjima qilingan",
         img:"https://admin.tabarrukziyorat.uz/media/destination_images/kurgan-san-tash-optimized.jpg",
         city:"Issiqkoʻl viloyati",
-        counrty:"Kyrgyzstan",
+        country:"  Qirgʻiziston",
         id:2,
         },
                 {
@@ -615,7 +615,7 @@ image:"https://admin.tabarrukziyorat.uz/media/destination_images/2_dwrINHB.jpg",
         info:"Bu hududda qirgʻiz xalqi uchun ahamiyatli tarixiy va sayyohlik maskani, oʻrta asrlarning mashhur tarixiy shaxsi, jasur sarkarda, Boburning doʻsti, oʻz davri faylasufi, shoir buyuk Kojo Kelen maqbarasi joylashgan. , Buyuk Mug'allar imperiyasining asoschisi",
         img:"https://admin.tabarrukziyorat.uz/media/destination_images/image_2025-01-24_09-28-59.jpg",
         city:"O‘sh viloyati",
-        counrty:"    Qirgʻiziston",
+        country:"    Qirgʻiziston",
         id:3,
         },
                 {
@@ -624,7 +624,7 @@ image:"https://admin.tabarrukziyorat.uz/media/destination_images/2_dwrINHB.jpg",
         info:"Ko‘rganlari, boshidan kechirganlaridan keyin Bulan oqarib ketdi, sochlari bir kechada oqarib ketdi. Shu sababli, aholi uni Safed Bulan deb atay boshladilar, bu Oq Bulan degan ma'noni anglatadi. U ushbu voqea sodir bo'lgan joydan unchalik uzoq bo'lmagan joyda dafn etilgan, keyinchalik mahalliy aholi Safed Bulan nomidagi kamtarona maqbara qurgan. Erkaklar uchun kirish taqiqlangan, ayollar kirib, ibodat qilishlari mumkin. Shuningdek, 40 yildan so‘ng bu yerga Shoh G‘irorning o‘g‘li Shoh Fozil kelib, islom dinini joriy qilgan va 15 yil yashagan degan faraz ham bor. Maqbara taxminan 600 yil avval uning xotirasiga qurilgan. XIII asrning ikkinchi yarmida yozgan Jemal Qarshini ta’kidlash joiz asrda Qashqarda bo'lgan va bu hududlar bilan tanish bo'lmagan, voqeaning birinchi qismida (2700 kishining o'limi) afsonani biladi, u hali Safed-Bulon maqbarasi kabi yodgorlikni qoldirmagan va aytmaydi. Bu yodgorlik nomi bilan bog'liq bo'lgan Shoh Fozil afsonasi. Bu esa Jemol Qarshi davrida maqbara hali mavjud bo‘lmagan, deyishga asos bo‘ladi. Ushbu bilvosita ma'lumotlar yodgorlikni XIII asr oxiri, ehtimol XIV asrning boshlariga to'g'rilash zaruratini keltirib chiqaradi.",
         img:"https://admin.tabarrukziyorat.uz/media/destination_images/Shah-Fazil-12.jpg",
         city:"Jalol-Obod viloyati",
-        counrty:"Qirgʻiziston",
+        country:"Qirgʻiziston",
         id:4
         },
                 {
@@ -633,8 +633,56 @@ image:"https://admin.tabarrukziyorat.uz/media/destination_images/2_dwrINHB.jpg",
         info:"Chil-ustun gʻori — Oʻsh viloyatining shimoli-gʻarbiy qismida, Aravon qishlogʻi yaqinida joylashgan gʻorlardan biri. G'or qadim zamonlardan beri ma'lum bo'lib, devorlardagi arab yozuvlari buni tasdiqlaydi. Oʻrta Osiyoning eng qiziqarli speleologik obʼyektlaridan biri Tuya-Muyun massividir. U rudali va metall bo'lmagan past haroratli va gidrotermal paleokarst bilan mashhur.Aravon daryosi oʻzining markaziy qismidagi massivni kesib oʻtib, chuqurligi taxminan 300 m boʻlgan tor Dangi kanyonini hosil qiladi.",
         img:"https://admin.tabarrukziyorat.uz/media/destination_images/Chil-Ustun-3-1024x768.jpg",
         city:"O‘sh viloyati   ",
-        counrty:" Qirgʻiziston",
+        country:" Qirgʻiziston",
         id:5
+        },
+                   {
+        name:"Manas-Ordo Qirg'iziston milliy tarixiy-madaniy majmuasi",
+        desc:"Bu mashhur epik qahramon Manasning hikoyasini saqlaydigan keng qamrovli madaniy-tarixiy majmua. Afsonaga ko'ra, uning dafn etilgan joyi shu yerda",
+        info:"",
+        img:"https://admin.tabarrukziyorat.uz/media/destination_images/Chil-Ustun-3-1024x768.jpg",
+        city:"O‘sh viloyati   ",
+        country:" Qirgʻiziston",
+        id:6
+        },
+
+        {
+        name:"Xon qal'asi (Xudoyorxon qal'asi)",
+        desc:"Qal’a Turkiston tizmasi yon bag‘irlarida qariyb yarim kilometrga cho‘zilgan",
+        info:"",
+        img:"https://admin.tabarrukziyorat.uz/media/destination_images/Chil-Ustun-3-1024x768.jpg",
+        city:"Botken viloyati   ",
+        country:" Qirgʻiziston",
+        id:7
+        },
+        
+        {
+        name:"Tarixiy, madaniy va tabiiy muzey - Sulaymon-Too qoriqxonasi",
+        desc:"Sulaymon togʻi (Sulaymon togʻi) Qirgʻizistondagi eng muhim madaniy diqqatga sazovor joy boʻlib, Oʻsh shahrining markazida joylashgan mamlakatning YuNESKO madaniy merosi roʻyxatiga kiritilgan birinchi obyektidir",
+        info:"",
+        img:"https://admin.tabarrukziyorat.uz/media/destination_images/Chil-Ustun-3-1024x768.jpg",
+        city:"O‘sh viloyati   ",
+        country:" Qirgʻiziston",
+        id:8
+        },
+        {
+        name:"Manjili-Ota vodiysi",
+        desc:"Vodiy nafaqat o'zining go'zal manzaralari bilan mashhur",
+        info:"",
+        img:"https://admin.tabarrukziyorat.uz/media/destination_images/Chil-Ustun-3-1024x768.jpg",
+        city:"Issiqko'l viloyati   ",
+        country:" Qirgʻiziston",
+        id:9
+        },
+
+        {
+        name:"Buraninskiy tarixiy - madaniy majmuasi",
+        desc:"Burana minorasi (Buranin minorasi) — Qirgʻizistonning Toʻqmoq shahridan 12 km janubi-gʻarbda, Chu daryosining chap qirgʻogʻida, Buraninskiy aholi punkti xarobalari orasida joylashgan arxeologik va meʼmoriy yodgorlik",
+        info:"",
+        img:"https://admin.tabarrukziyorat.uz/media/destination_images/Chil-Ustun-3-1024x768.jpg",
+        city:"O‘sh viloyati   ",
+        country:" Qirgʻiziston",
+        id:10
         },
     ],
 Vengriya:[
@@ -646,7 +694,7 @@ info:"Bunga Dyordji Szaboning avlodlari da'vo qilishgan. U rassom Zsille Kalmann
 img:"https://admin.tabarrukziyorat.uz/media/destination_images/c4818299c0b1420401ae51135793a987_4.jpg",
 city:"Veszprem",
 country:" Vengriya",
-id:"1",
+id:1,
     },
       {
       name:"Sulaymon Sulton masjidi",

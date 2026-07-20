@@ -48,6 +48,15 @@ const router = createRouter({
             component: ()=> import('@/views/PPLaygraund.vue')
         },
         {
+            path: '/sightList/:route',
+            name: 'sights-all',
+            component: () => import('@/views/Sights/PSights.vue')
+        },
+        {
+           path: '/sight/:country/:id',
+           name: 'sight-single',
+           component: () => import('@/views/Sights/PSightsSingle.vue')
+        },
             path: '/faq',
             name: 'faq',
             component: ()=> import('@/views/PFaq.vue')
