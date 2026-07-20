@@ -28,7 +28,7 @@
   </div>
     <span
     @click="handleCopy"
-    class="text-gray-300 cursor-pointer text-sm font-light truncate flex-1 tracking-wide bg-gray-700  rounded-lg flex items-center justify-between pl-3">
+    class="text-gray-300 cursor-pointer text-sm font-light truncate flex-1 tracking-wide bg-gray-700  rounded-lg flex items-center justify-between px-3">
       {{ textCopy }}
        <button class="bg-[#db3d3d] hover:bg-red-700 text-white p-2 rounded-lg transition-colors duration-200 flex items-center justify-center shrink-0 shadow-md">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">

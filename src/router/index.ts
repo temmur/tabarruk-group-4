@@ -47,6 +47,11 @@ const router = createRouter({
             name: 'playground',
             component: ()=> import('@/views/PPLaygraund.vue')
         },
+        {
+            path: '/faq',
+            name: 'faq',
+            component: ()=> import('@/views/PFaq.vue')
+        }
     ]
    },
   ],
