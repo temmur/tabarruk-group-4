@@ -39,8 +39,7 @@
            :to="`/news/${news.id}`"
            >
         <div
-          v-for="(news, index) in restNews"
-          :key="index"
+        
           class="bg-[#0B0F24] rounded-xl overflow-hidden cursor-pointer flex gap-4 items-start p-4 flex-1"
         >
           <img :src="news.image" :alt="news.title" class="w-28 h-full object-cover rounded-lg flex-shrink-0">
