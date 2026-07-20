@@ -7,18 +7,7 @@ export const countries = [
     id: 1,
     backImage:'/images/countryUzb.jpg',
     text: "Oʻzbekiston Respublikasi hududi 12 ta viloyat, Toshkent shahri va Qoraqalpogʻiston Respublikasidan iboratdir, shuningdek, u mustaqil, demokratik, dunyoviy va konstitutsiyaviy davlat hisoblanadi. ",
-      places: [
-      { name: 'Baroqxon madrasasi', image: '' },
-      { name: 'Bargsuz masjidi', image: '' },
-      { name: 'Boyazid Bastomiy masjidi', image: "" },
-      { name: 'Bedir ota majmuasi', image: '' },
-      { name: 'Buzruk ota', image: '' },
-      { name: 'Baroqxon madrasasi', image: '' },
-      { name: 'Bargsuz masjidi', image: '' },
-      { name: 'Boyazid Bastomiy masjidi', image: "" },
-      { name: 'Bedir ota majmuasi', image: '' },
-      { name: 'Buzruk ota', image: '' },
-    ],
+
   },
   { 
     name: 'Turkiya',     

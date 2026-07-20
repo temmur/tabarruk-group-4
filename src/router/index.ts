@@ -21,10 +21,36 @@ const router = createRouter({
             component: PAbout
         },
         {
+            path: '/news',
+            name: 'News',
+            component: ()=> import('@/views/PNews.vue')
+        },
+        {
             path: '/country/:route',
             name: 'country-single',
             component: ()=> import('@/views/Countries/PSingle.vue')
-        }
+        },
+        {
+
+            path: '/news/:id',
+            name: 'news-single',
+            component: () => import('@/views/PNewsSingle.vue')
+        },
+        {
+            path: '/playground',
+            name: 'playground',
+            component: ()=> import('@/views/PPLaygraund.vue')
+        },
+        {
+            path: '/sightList/:route',
+            name: 'sights-all',
+            component: () => import('@/views/Sights/PSights.vue')
+        },
+        {
+           path: '/sight/:country/:id',
+           name: 'sight-single',
+           component: () => import('@/views/Sights/PSightsSingle.vue')
+        },
     ]
    },
   ],

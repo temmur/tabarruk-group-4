@@ -58,11 +58,11 @@
   </section>
 
   <CPlaces
-    v-if="country && country.places && country.places.length > 0"
+    v-if="countryPlaces.length > 0"
     title="Diqqatga sazovor joylar"
     subtitle="Eng so'nggi yangiliklardan xabardor bo'ling"
-    :places="country.places"
-    view-all-route="/countries"
+    :places="countryPlaces"
+    :view-all-route="`/sightList/${route.params.route}`"
   />
 
 </template>
@@ -71,6 +71,7 @@
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { countries } from '@/data/countries'
+import { sights1 } from '@/data/sightList'
 import CPlaces from '@/components/Cards/CPlaces.vue'
 
 const route = useRoute()
@@ -78,6 +79,30 @@ const route = useRoute()
 const country = computed(() =>
   countries.find((el) => el.route === route.params.route)
 )
+
+const routeToSightsKey: Record<string, keyof typeof sights1> = {
+  uzbekistan: 'uzbekistan',
+  turkey: 'turkiya',
+  turkmenistan: 'Turkmanistaon',
+  kazakhstan: 'Qozogiston',
+  kyrgyzstan: 'Qirgiston',
+  hungary: 'Vengriya',
+}
+
+const countryPlaces = computed(() => {
+  const currentRoute = route.params.route as string
+  const key = routeToSightsKey[currentRoute]
+  if (!key) return []
+
+  const raw = sights1[key] ?? []
+
+  return raw.map((place: any) => ({
+    name: place.name,
+    image: place.image ?? place.img,
+    location: place.city ?? place.country,
+    route: `/sight/${currentRoute}/${place.id}`,
+  }))
+})
 </script>
 
 <style scoped></style>
