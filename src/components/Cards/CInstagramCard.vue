@@ -29,7 +29,7 @@ const props = defineProps<{
 .hover-group{
 border: 2px solid rgba(255, 255, 255, 0.14);
     padding: 8px;
-    background-color: #10112A;
+    background-color: #010118;
 
 }
 

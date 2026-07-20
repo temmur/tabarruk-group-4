@@ -21,6 +21,12 @@ const router = createRouter({
             component: PAbout
         },
         {
+            path: '/news/:slug',
+            name: 'news-single',
+            component: ()=> import('@/views/PNewsSingle.vue')
+        },
+        {
+        
             path: '/news',
             name: 'News',
             component: ()=> import('@/views/PNews.vue')
@@ -41,9 +47,15 @@ const router = createRouter({
             name: 'playground',
             component: ()=> import('@/views/PPLaygraund.vue')
         },
+        {
+            path: '/faq',
+            name: 'faq',
+            component: ()=> import('@/views/PFaq.vue')
+        }
     ]
    },
   ],
 })
+
 
 export default router

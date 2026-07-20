@@ -10,7 +10,7 @@
     
     <div
       class="absolute inset-0 bg-gradient-to-br
-             from-slate-700/70
+             from-slate-70
              via-slate-800/60
              to-blue-950/70"
     ></div>

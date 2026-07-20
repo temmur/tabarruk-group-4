@@ -3,38 +3,38 @@
 export const instagramData = [
     {
         link: 'https://www.instagram.com/p/DFmcTCXIKM2/?igsh=MXh5OGpuZml2dzkzcw%3D%3D',
-        postDate: 4,
-        like: 1000,
+        postDate: 10,
+        like: 1353,
         image: 'https://admin.tabarrukziyorat.uz/media/instagram/Dayahatyn_caravanserai.jpg'
     },
     {
         link: 'https://www.instagram.com/p/DFmU5HJIbrc/?igsh=c2Mxa3JiODk4Mmw%3D',
-        postDate:6,
-        like:2350,
+        postDate:20,
+        like:2570,
         image: 'https://admin.tabarrukziyorat.uz/media/instagram/The_complex_of_Imam_al-Bukhari_Uzbekistan_Samarkand.jpg'
     },
     {
     link: 'https://www.instagram.com/p/DFmYSIKIuPt/?igsh=MXdyMzNzYnQ2bmp6Mg%3D%3D   ',
-    postDate:8.5 ,
-    like:4579,
+    postDate:22.5,
+    like:4559,
     image: 'https://admin.tabarrukziyorat.uz/media/instagram/Tabarruk_Ziyarat.jpg'
     },
      {
     link: 'https://www.instagram.com/p/DFmbKffIQPq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D',
-    postDate:14 ,
-    like:6142,
+    postDate:27.8 ,
+    like:7142,
     image: 'https://admin.tabarrukziyorat.uz/media/instagram/Arystan_bab_mausoleum.jpg'
     },
      {
     link: 'https://admin.tabarrukziyorat.uz/media/instagram/Burana_Tower.jpg',
-    postDate:31 ,
-    like:39145,
+    postDate:37.23 ,
+    like:54145,
     image: 'https://admin.tabarrukziyorat.uz/media/instagram/Burana_Tower.jpg'
     },
        {
     link: 'https://admin.tabarrukziyorat.uz/media/instagram/The_complex_of_Imam_al-Bukhari_Uzbekistan_Samarkand.jpg',
-    postDate:47.12 ,
-    like:50275,
+    postDate:73.17 ,
+    like:75275,
     image: 'https://admin.tabarrukziyorat.uz/media/instagram/Juma_Mosque.jpg'
     },
 ]
